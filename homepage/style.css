@@ -1,13 +1,12 @@
 @font-face {
-    font-family: 'AstoriaMedium';
-    src: url('AstoriaMedium.ttf') format('truetype');
+  font-family: "AstoriaMedium";
+  src: url("AstoriaMedium.ttf") format("truetype");
 }
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Helvetica;
 }
 
 .right-sidebar{
@@ -23,14 +22,6 @@
     width: 100px;
     margin-top: 0;
     margin-bottom: 10px;
-}
-
-div.content{
-    height: 2600px;
-    width: 1299px;
-    margin-left: 110px;
-    margin-top: 20px;
-    margin-bottom: -400px;
 }
 
 li, a, button{
@@ -166,461 +157,530 @@ button.order:hover, button.details:hover{
     border: none;
 }
 
-.tagline{
-    position: absolute;
-    width: 734px;
-    height: 158px;
-    left: 150px;
-    top: 200px;
-    
-    font-family: 'AstoriaMedium';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 75px;
-    line-height: 79px;
-    
-    display: flex;
-    align-items: center;
-    
-    color: #DC780B;
+.tagline {
+  position: absolute;
+  width: 734px;
+  height: 158px;
+  left: 150px;
+  top: 200px;
+
+  font-family: "AstoriaMedium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 79px;
+
+  display: flex;
+  align-items: center;
+
+  color: #dc780b;
 }
 
-.tagline-description{
-    text-align: justify;
-    text-justify: inter-word;
-    position: absolute;
-    width: 700px;
-    height: 200px;
-    left: 150px;
-    top: 320px;
-    
-    font-family: 'Helvetica';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    
-    display: flex;
-    align-items: center;
-    
-    color: #656C73;
+.tagline-description {
+  text-align: justify;
+  text-justify: inter-word;
+  position: absolute;
+  width: 700px;
+  height: 200px;
+  left: 150px;
+  top: 320px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+
+  display: flex;
+  align-items: center;
+
+  color: #656c73;
 }
 
-.pan{
-    position: absolute;
-    width: 716px;
-    height: 618px;
-    left: 710px;
-    top: 71px;
+.pan {
+  position: absolute;
+  width: 700px;
+  height: 618px;
+  left: 550px;
+  top: 71px;
 }
 
-.features {
-    display: flex;
-    justify-content: center;
+.subtitle {
+  margin-top: 50%;
+  margin-bottom: 1%;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 91.7%;
+
+  align-items: center;
+  text-align: center;
+
+  color: #dc780b;
 }
 
-.subtitle{
-    position: absolute;
-    top: 850px;
-    font-family: 'Helvetica';
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
-    color: #DC780B;
+.subtitle-tagline {
+  font-family: "AstoriaMedium";
+  font-size: 40px;
+  line-height: 79px;
+
+  align-items: center;
+  text-align: center;
+
+  color: #656c73;
 }
 
-.subtitle-tagline{
-    position: absolute;
-    top: 880px;
-    font-family: 'AstoriaMedium';
-    font-weight: 400;
-    font-size: 35px;
-    text-align: center;
-    color: #656C73;
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .ingredients {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.pic-ingredients{
-    position: absolute;
-    width: 117px;
-    height: 117px;
-    left: 242px;
-    top: 980px;
+.pic-ingredients {
+  position: absolute;
+  width: 117px;
+  height: 117px;
+  left: 230px;
+  top: 980px;
 }
 
-.title-ingredient{
-    position: absolute;
-    width: 200px;
-    left: 199px;
-    top: 1100px;
-    font-family: 'AstoriaMedium';
+.title-ingredient {
+  position: absolute;
+  width: 200px;
+  left: 185px;
+  top: 1100px;
+  font-family: "AstoriaMedium";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 79px;
+  text-align: center;
+  color: #6fa12b;
+}
+.description-ingredient {
+  position: absolute;
+  width: 250px;
+  height: 83px;
+  left: 165px;
+  top: 1170px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 130%;
+
+  align-items: center;
+  text-align: center;
+
+  color: #656c73;
+}
+.deliver {
+  display: flex;
+  justify-content: center;
+}
+
+.pic-deliver {
+  position: absolute;
+  width: 117px;
+  height: 117px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 980px;
+}
+
+
+.title-deliver {
+  position: absolute;
+  width: 280px;
+  top: 1100px;
+  font-family: "AstoriaMedium";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 79px;
+  text-align: center;
+  color: #6fa12b;
+}
+
+.description-deliver {
+  position: absolute;
+  width: 250px;
+  height: 83px;
+  top: 1170px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 130%;
+
+  align-items: center;
+  text-align: center;
+
+  color: #656c73;
+}
+
+.rate {
+  display: flex;
+  justify-content: center;
+}
+
+.pic-rate {
+  position: absolute;
+  width: 117px;
+  height: 117px;
+  left: 970px;
+  top: 980px;
+}
+
+.title-rate {
+  position: absolute;
+  width: 200px;
+  left: 930px;
+  top: 1100px;
+  font-family: "AstoriaMedium";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 79px;
+  text-align: center;
+
+  color: #6fa12b;
+}
+
+.description-rate {
+  position: absolute;
+  width: 250px;
+  height: 83px;
+  left: 915px;
+  top: 1155px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 130%;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #656c73;
+}
+
+.aboutus,
+.about-picture,
+.about-caption {
+  display: flex;
+}
+
+.about-chadacucina {
+  position: absolute;
+  width: 532px;
+  height: 532px;
+  left: 120px;
+  top: 1400px;
+
+  background: url(about-photo.png);
+  border-radius: 34px;
+}
+
+.title-chadacucina {
+  position: absolute;
+  width: 602px;
+  height: 79px;
+  left: 730px;
+  top: 1540px;
+
+  font-family: "AstoriaMedium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 99%;
+
+  color: #6fa12b;
+}
+
+.subtitle-about {
+  position: absolute;
+  left: 740px;
+  top: 1500px;
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 20px;
+  color: #dc780b;
+}
+
+.title-description {
+  text-justify: inter-word;
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  left: 740px;
+  top: 1620px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+
+
+  color: #656c73;
+}
+
+.readmore {
+  position: absolute;
+  width: 199.62px;
+  height: 53.34px;
+  left: 740px;
+  top: 1780px;
+  background-color: #6fa12b;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
+  font-size: 22px;
+}
+
+.readmore:hover {
+  background-color: white;
+  border: 1px solid #6fa12b;
+  color: #6fa12b;
+}
+
+
+.subtitle-features {
+    max-width: 1440px;
+    margin-top: 85%;
+    font-family: "Helvetica";
+    font-style: normal;
     font-weight: 400;
     font-size: 25px;
+    line-height: 91.7%;
+  
+    align-items: center;
+    text-align: center;
+  
+    color: #dc780b;
+}
+
+.subtitle-feedback {
+    font-family: "AstoriaMedium";
+    font-size: 40px;
     line-height: 79px;
-    text-align:center;
-    
-    color: #6FA12B;
-}
-
-.deliver{
-    display: flex;
-    justify-content: center;
-}
-
-.pic-deliver{
-    position: absolute;
-    width: 117px;
-    height: 117px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top: 980px; 
-}
-
-.description-ingredient{
-    position: absolute;
-    width: 250px;
-    height: 83px;
-    left: 175px;
-    top: 1170px;
-    
-    font-family: 'Helvetica';
-    font-style: normal;
-    font-size: 15px;
-    line-height: 130%;
-    
-    display: flex;
+  
     align-items: center;
     text-align: center;
-    
-    color: #656C73;
+  
+    color: #656c73;
 }
 
-.title-deliver{
-    position: absolute;
-    width: 280px;
-    left: 620px;
-    top: 1100px;
-    font-family: 'AstoriaMedium';
-    font-weight: 400;
-    font-size: 25px;
+.simon {
+  width: 199px;
+  height: 199px;
+
+  margin: 0 auto;
+  top: 1500px;
+  align-items: center;
+  text-align: center;
+}
+
+.title-simon {
+    max-width: 1440px;
+    margin-top: 3%;
+    font-family: "AstoriaMedium";
+    font-size: 40px;
     line-height: 79px;
-    text-align:center;
-    
-    color: #6FA12B;
-}
-
-.description-deliver{
-    position: absolute;
-    width: 250px;
-    height: 83px;
-    left: 635px;
-    top: 1170px;
-    
-    font-family: 'Helvetica';
-    font-style: normal;
-    font-size: 15px;
-    line-height: 130%;
-    
-    display: flex;
+  
     align-items: center;
     text-align: center;
-    
-    color: #656C73;
+  
+    color: #6fa12b;
 }
 
-.rate{
-    display: flex;
-    justify-content: center;
+.feedback-1 {
+  max-width: 1440px;
+  margin-bottom: 10%;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+
+  align-items: center;
+  text-align: center;
+
+  color: #656c73;
 }
 
-.pic-rate{
-    position: absolute;
-    width: 117px;
-    height: 117px;
-    left: 1150px;
-    top: 980px;
+.footer-container {
+  background-color: #252525;
+  padding-bottom: 4rem 0 4rem 0;
+  flex-shrink: 0;
 }
 
-.title-rate{
-    position: absolute;
-    width: 200px;
-    left: 1110px;
-    top: 1100px;
-    font-family: 'AstoriaMedium';
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 79px;
-    text-align:center;
-    
-    color: #6FA12B;
+.footer {
+  width: 70%;
+  height: 40vh;
+  background-color: #252525;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
 }
 
-.description-rate{
-    position: absolute;
-    width: 250px;
-    height: 83px;
-    left: 1085px;
-    top: 1170px;
-    
-    font-family: 'Helvetica';
-    font-style: normal;
-    font-size: 15px;
-    line-height: 130%;
-    
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
-    color: #656C73;
+.footer-1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  margin-right: 4rem;
 }
 
-.aboutus, .about-picture, .about-caption{
-    display: flex;
-    justify-content: center;
+.footer-heading h2 {
+  margin-bottom: 2rem;
 }
 
-.about-chadacucina{
-    position: absolute;
-    width: 532px;
-    height: 532px;
-    left: 200px;
-    top: 1400px;
-    
-    background: url(about-photo.png);
-    border-radius: 34px;
+.footer-heading a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
 }
 
-.title-chadacucina{
-    position: absolute;
-    width: 602px;
-    height: 79px;
-    left: 800px;
-    top: 1540px;
-    
-    font-family: 'AstoriaMedium';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 80px;
-    line-height: 99%;
-    
-    display: flex;
-    align-items: center;
-    
-    color: #6FA12B;
+.footer-heading a:hover {
+  color: white;
+  transition: 0.3s ease-out;
+  background-color: #dc780b;
 }
 
-.subtitle-about{
-    position: absolute;
-    left: 800px;
-    top: 1500px;
-    font-family: 'Helvetica';
-    font-weight: 400;
-    font-size: 20px;
-    text-align: center;
-    color: #DC780B;
+.footer-email h2 {
+  margin-bottom: 2rem;
 }
 
-.title-description{
-    text-align: justify;
-    text-justify: inter-word;
-    position: absolute;
-    width: 500px;
-    height: 200px;
-    left: 800px;
-    top: 1580px;
-    
-    font-family: 'Helvetica';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    
-    display: flex;
-    align-items: center;
-    
-    color: #656C73;
+.email-form {
+  margin-top: 100px;
+  margin-left: auto;
 }
 
-.readmore{
-    position: absolute;
-    width: 199.62px;
-    height: 53.34px;
-    left: 800px;
-    top: 1780px;
-    background-color: #6FA12B;
-    border: none;
-    border-radius: 12px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    color: white;
-    font-size: 22px;
+#footer-email {
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 25px;
 }
 
-.readmore:hover{
-    background-color: white;
-    border: 1px solid #6FA12B;
-    color: #6FA12B;
+#footer-email::placeholder {
+  color: #656c73;
 }
 
-.feedback{
-    display: flex;
-    justify-content: center;
+#footer-email-btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #dc780b;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
 }
 
-.subtitle-features{
-    position: absolute;
-    top: 2100px;
-    font-family: 'Helvetica';
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
-    color: #DC780B;
+#footer-email-btn:hover {
+  cursor: pointer;
+  background-color: #6fa12b;
+  transition: all 0.4s ease-out;
 }
 
-.subtitle-feedback{
-    position: absolute;
-    display: flex;
-    top: 2130px;
-    font-family: 'AstoriaMedium';
-    font-weight: 400;
-    font-size: 35px;
-    text-align: center;
-    color: #656C73;
-}
 
-.simon{
-    position: absolute;
-    width: 199px;
-    height: 199px;
-    top: 2250px;
-    margin-left: 0;
-    margin-right: 0;
-    margin: auto;
-}
-
-.title-simon{
-    position: absolute;
-    width: 750px;
-    height: 79px;
-    left: 560px;
-    top: 2460px;
-    
-    font-family: 'AstoriaMedium';
-    font-style: normal;
-    font-weight: 400;
+@media only screen and (max-width: 600px) {
+    /* adjust font sizes */
+    li,
+    a,
+    button {
+    font-size: 14px;
+    }
+    .tagline {
     font-size: 50px;
-    line-height: 99%;
-    
-    display: flex;
-    align-items: center;
-    
-    color: #6FA12B;
-}
-
-.feedback-1{
-    position: absolute;
-    width: 718px;
-    height: 83px;
-    left: 400px;
-    top: 2540px;
-    
-    font-family: 'Helvetica';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 130%;
-    
-    align-items: center;
+    line-height: 60px;
+    width: 500px;
+    height: 100px;
+    left: 50%;
+    margin-left: -250px;
+    top: 150px;
     text-align: center;
-    
-    color: #656C73;
-}
-
-.footer-container{
-    background-color: #252525;
-    padding-bottom: 4rem 0 4rem 0;
-    flex-shrink: 0;
-}
-
-.footer{
-    width: 80%;
-    height: 40vh;
-    background-color: #252525;
-    color: white;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: auto;
-}
-
-.footer-1{
-    display: flex;
+    }
+    .tagline-description {
+    font-size: 16px;
+    line-height: 24px;
+    width: 300px;
+    height: 180px;
+    left: 50%;
+    margin-left: -150px;
+    top: 300px;
+    text-align: center;
+    }
+    .pan {
+    width: 500px;
+    height: 450px;
+    left: 50%;
+    margin-left: -250px;
+    top: 500px;
+    }
+    .subtitle {
+    font-size: 20px;
+    margin-top: 30%;
+    }
+    .subtitle-tagline {
+    font-size: 30px;
+    line-height: 50px;
+    }
+    .nav-links {
+    display: none;
     flex-direction: column;
-    margin-top: 4rem;
-    margin-right: 4rem;
-}
-
-.footer-heading h2{
-    margin-bottom: 2rem;
-}
-
-.footer-heading a{
-    color: white;
-    text-decoration: none;
-    margin-bottom: 0.5rem;
-}
-
-.footer-heading a:hover{
-    color: white;
-    transition: 0.3s ease-out;
-    background-color: #DC780B;
-}
-
-.footer-email h2{
-    margin-bottom: 2rem;
-}
-
-.email-form{
-    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 116px);
+    position: fixed;
+    top: 116px;
+    left: 0;
+    background-color: #f9f9f9;
+    }
+    .nav-links li {
+    display: block;
+    padding: 20px 0;
+    }
+    .nav-links a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    }
+    .dropdown-menu {
+    position: static;
+    display: block;
+    width: 100%;
+    }
+    .dropdown:hover .dropdown-menu {
+    display: none;
+    }
+    #logo {
+    margin-right: auto;
+    margin-top: 2%;
+    width: 83px;
+    height: 56px;
+    }
+    header {
+    padding: 10px 5%;
+    }
+    button.nav-book {
+    margin-top: 20px;
     margin-left: auto;
-}
-
-
-#footer-email{
-    width: 250px;
-    height: 40px;
-    border-radius: 4px;
-    outline: none;
-    border: none;
-    padding-left: 0.5rem;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    margin-top: 25px;
-}
-
-#footer-email::placeholder{
-    color: #656C73;
-}
-
-#footer-email-btn{
-    width: 100px;
-    height: 40px;
-    border-radius: 4px;
-    background-color: #DC780B;
-    outline: none;
-    border: none;
-    color: white;
-    font-size: 1rem;
-}
-
-#footer-email-btn:hover{
-    cursor: pointer;
-    background-color: #6FA12B;
-    transition: all 0.4s ease-out;
-}
-
+    margin-right: auto;
+    }
+    }

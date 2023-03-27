@@ -24,14 +24,6 @@
     margin-bottom: 10px;
 }
 
-div.content{
-    height: 2600px;
-    width: 1299px;
-    margin-left: 110px;
-    margin-top: 20px;
-    margin-bottom: -400px;
-}
-
 li, a, button{
     font-family: Helvetica;
     font-weight: 500;
